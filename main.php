@@ -89,6 +89,11 @@ for ($i = 1; $i < 11; ++$i) {
           more accessible by everyone. Similarly, music is now being sold online through websites as well as being streamed online.
           This website can provide users with a quick analysis of the trending bands from the past few years based off of ListenBrainz data.
         </p>
+        <p>
+        Figure 1 displays the top 10 songs listened based on ListenBrainz's database (from years 2017-2018). 
+        The top most listened song is actually a sound track from a game called <a target="_blank" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time">Legend of Zelda: Ocarina of Time</a>, released back in 1998,
+        composed by a Japanese musician named Koji Kondo.
+        </p>
         <br>
       </td>
       <td>
