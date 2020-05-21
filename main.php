@@ -89,10 +89,20 @@ for ($i = 1; $i < 11; ++$i) {
           more accessible by everyone. Similarly, music is now being sold online through websites as well as being streamed online.
           This website can provide users with a quick analysis of the trending bands from the past few years based off of ListenBrainz data.
         </p>
+        <br>
         <p>
-        Figure 1 displays the top 10 songs listened based on ListenBrainz's database (from years 2017-2018). 
-        The top most listened song is actually a sound track from a game called <a target="_blank" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time">Legend of Zelda: Ocarina of Time</a>, released back in 1998,
-        composed by a Japanese musician named Koji Kondo.
+          Figure 1 displays the top 10 songs listened based on ListenBrainz's database (from years 2006-2018).
+          The top most listened song is actually a sound track from a game called
+          <a target="_blank" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time">Legend of Zelda: Ocarina of Time</a>
+          , released back in 1998, composed by a Japanese musician named Koji Kondo which has been listened over the course of 12 years. 
+          Similarly, in 2nd spot is another soundtrack composed by a musician for video games and from 3rd onwards are all Pop/Rock songs 
+          by famous bands such as Nirvana and Led Zeppelin.
+        </p>
+        <br>
+        <p>
+          For Figure 2, it displays the top 10 artists/bands that people of ListenBrainz listen to. Topping the leaderboard is Radiohead, and English rockband
+          with users listening to their tracks 582,658 times. Following close behind are The Beatles, another English rockband formed in the 1960s with 559,065 users
+          listening to their songs. They have always been widely regarded as some of the best rock bands during their time.
         </p>
         <br>
       </td>
@@ -105,7 +115,7 @@ for ($i = 1; $i < 11; ++$i) {
       </td>
 
   </table>
-  
+
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     // Load the Visualization API and the corechart package.
@@ -145,7 +155,7 @@ for ($i = 1; $i < 11; ++$i) {
       // Set chart options
       // as of 20/05/2020
       var options = {
-        'title': 'Top 10 Most Listened to Songs - ListenBrainz (2017 - 2018)',
+        'title': 'Top 10 Most Listened to Songs - ListenBrainz (2006 - 2018)',
         'width': 1000,
         'height': 650,
         'legend': {
@@ -179,7 +189,7 @@ for ($i = 1; $i < 11; ++$i) {
       // Set chart options
       // as of 20/05/2020
       var options = {
-        'title': 'Top 10 Most Listened to Artists/Bands - ListenBrainz (2017 - 2018)',
+        'title': 'Top 10 Most Listened to Artists/Bands - ListenBrainz (2006 - 2018)',
         'width': 1000,
         'height': 650,
       };
