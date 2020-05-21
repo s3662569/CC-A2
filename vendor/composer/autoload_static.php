@@ -41,8 +41,10 @@ class ComposerStaticInitce39cb838481a582f520b8a8cac0ee8a
             'Grpc\\Gcp\\' => 9,
             'Grpc\\' => 5,
             'Google\\Protobuf\\' => 16,
+            'Google\\Cloud\\Storage\\' => 21,
             'Google\\Cloud\\Datastore\\' => 23,
             'Google\\Cloud\\Core\\' => 18,
+            'Google\\CRC32\\' => 13,
             'Google\\Auth\\' => 12,
             'Google\\ApiCore\\' => 15,
             'Google\\' => 7,
@@ -109,6 +111,10 @@ class ComposerStaticInitce39cb838481a582f520b8a8cac0ee8a
         array (
             0 => __DIR__ . '/..' . '/google/protobuf/src/Google/Protobuf',
         ),
+        'Google\\Cloud\\Storage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/cloud-storage/src',
+        ),
         'Google\\Cloud\\Datastore\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/cloud-datastore/src',
@@ -116,6 +122,10 @@ class ComposerStaticInitce39cb838481a582f520b8a8cac0ee8a
         'Google\\Cloud\\Core\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/cloud-core/src',
+        ),
+        'Google\\CRC32\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/crc32/src',
         ),
         'Google\\Auth\\' => 
         array (
