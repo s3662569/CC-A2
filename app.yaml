@@ -9,5 +9,5 @@ handlers:
   script: main.php
 
 - url: /(.+\.php)$
-  script: html/\1
+  script: \1
 
