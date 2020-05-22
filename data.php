@@ -78,6 +78,7 @@ for ($i = 1; $i < 11; ++$i) {
                     by famous bands such as Nirvana and Led Zeppelin.
                 </p>
                 <br>
+                <img src="https://storage.cloud.google.com/a2-s3721471-bucket/table_1.jpg" alt="table_1">
                 <!-- Div that will hold the pie chart -->
                 <p class="small">Figure 1</p>
                 <div id="piechart_div"></div>
@@ -88,6 +89,7 @@ for ($i = 1; $i < 11; ++$i) {
                     listening to their songs. They have always been widely regarded as some of the best rock bands during their time.
                 </p>
                 <br>
+                <img src="https://storage.cloud.google.com/a2-s3721471-bucket/table_2.jpg" alt="table_2">
                 <!-- Div that holds the bar chart -->
                 <p class="small">Figure 2</p>
                 <div id="barchart_div"></div>
