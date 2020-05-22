@@ -1,5 +1,4 @@
 <?php
-session_start();
 putenv('My First Project-4ea46c8c82fe.json');
 
 require __DIR__ . '/vendor/autoload.php';
@@ -22,6 +21,7 @@ $sList = array();
 $saList = array();
 $lList = array();
 
+// Loop through datastore and add elements to array
 for ($i = 1; $i < 11; ++$i) {
   $id = $datastore->key($kind1, 's' . $i);
   $s = $datastore->lookup($id);
@@ -37,6 +37,7 @@ for ($i = 1; $i < 11; ++$i) {
 $aList = array();
 $alList = array();
 
+// Loop through datastore and add elements to array
 for ($i = 1; $i < 11; ++$i) {
   $id = $datastore->key($kind2, 'a' . $i);
   $a = $datastore->lookup($id);
@@ -108,6 +109,7 @@ for ($i = 1; $i < 11; ++$i) {
       </td>
       <td>
         <!--Div that will hold the pie chart-->
+        <!--can switch the divs for clarity like a button press-->
         <p class="small">Figure 1</p>
         <div id="piechart_div" style="border: 1px solid #ccc"></div>
         <p class="small">Figure 2</p>
@@ -153,7 +155,6 @@ for ($i = 1; $i < 11; ++$i) {
       }
 
       // Set chart options
-      // as of 20/05/2020
       var options = {
         'title': 'Top 10 Most Listened to Songs - ListenBrainz (2006 - 2018)',
         'width': 1000,
@@ -187,7 +188,6 @@ for ($i = 1; $i < 11; ++$i) {
       }
 
       // Set chart options
-      // as of 20/05/2020
       var options = {
         'title': 'Top 10 Most Listened to Artists/Bands - ListenBrainz (2006 - 2018)',
         'width': 1000,
