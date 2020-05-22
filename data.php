@@ -78,20 +78,20 @@ for ($i = 1; $i < 11; ++$i) {
                     by famous bands such as Nirvana and Led Zeppelin.
                 </p>
                 <br>
+                <!-- Div that will hold the pie chart -->
+                <p class="small">Figure 1</p>
+                <div id="piechart_div"></div>
+                <br>
                 <p>
                     For Figure 2, it displays the top 10 artists/bands that people of ListenBrainz listen to. Topping the leaderboard is Radiohead, and English rockband
                     with users listening to their tracks 582,658 times. Following close behind are The Beatles, another English rockband formed in the 1960s with 559,065 users
                     listening to their songs. They have always been widely regarded as some of the best rock bands during their time.
                 </p>
                 <br>
-            </td>
-            <td>
-                <!--Div that will hold the pie chart-->
-                <!--can switch the divs for clarity like a button press-->
-                <p class="small">Figure 1</p>
-                <div id="piechart_div" style="border: 1px solid #ccc"></div>
+                <!-- Div that holds the bar chart -->
                 <p class="small">Figure 2</p>
-                <div id="barchart_div" style="border: 1px solid #ccc"></div>
+                <div id="barchart_div"></div>
+                <br>
             </td>
         </tr>
     </table>
