@@ -71,7 +71,7 @@ for ($i = 1; $i < 11; ++$i) {
 
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Main Page</title>
+    <title>Data Page</title>
     <link rel='stylesheet' type='text/css' href='/css/style.css'>
 
     <!-- Link to Google Charts: https://developers.google.com/chart/interactive/docs/quick_start -->
