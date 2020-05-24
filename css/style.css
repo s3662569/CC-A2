@@ -59,21 +59,6 @@ li a:hover:not(.active) {
     box-shadow: 10px 10px 100px #212121;
 }
 
-.content {
-    width: 50%;
-    background-color: #ff7cff;
-    color: #ffffff;
-    font-family: 'Helvetica', sans-serif;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    box-shadow: 10px 10px 100px #212121;
-    display: flex;
-    height: 300px;
-    border-top: #FFFFFF 2px solid;
-    margin: 0;
-    padding: 0;
-}
-
 table {
     color: #000000;
     text-align: left;
@@ -88,7 +73,7 @@ td {
     padding: 5px 15px 5px 2.5px;
     background-color: #d4d4d4;
     border: 1px solid #3b3b3b;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 body {
