@@ -74,6 +74,7 @@ for ($i = 1; $i < 11; ++$i) {
     <title>Main Page</title>
     <link rel='stylesheet' type='text/css' href='/css/style.css'>
 
+    <!-- Link to Google Charts: https://developers.google.com/chart/interactive/docs/quick_start -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         // Load the Visualization API and the corechart package.
@@ -181,7 +182,7 @@ for ($i = 1; $i < 11; ++$i) {
 
             // Set chart options
             var options = {
-                'title': 'Top 10 Users based on Listens - ListenBrainz (2005 - 2018)',
+                'title': 'Top 10 Users based on Song Listenings - ListenBrainz (2005 - 2018)',
                 'width': 1000,
                 'height': 650,
             };
@@ -208,8 +209,8 @@ for ($i = 1; $i < 11; ++$i) {
                 <p>
                     Figure 1 displays the top 10 songs listened based on ListenBrainz's database (from years 2006-2018).
                     The top most listened song is actually a sound track from a game called
-                    <a target="_blank" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time">Legend of Zelda: Ocarina of Time</a>
-                    , released back in 1998, composed by a Japanese musician named Koji Kondo which has been listened over the course of 12 years.
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time">Legend of Zelda: Ocarina of Time</a>, 
+                    released back in 1998, composed by a Japanese musician named Koji Kondo which has been listened over the course of 12 years.
                     Similarly, in 2nd spot is another soundtrack composed by a musician for video games and from 3rd onwards are all Pop/Rock songs
                     by famous bands such as Nirvana and Led Zeppelin.
                 </p>
@@ -241,14 +242,16 @@ for ($i = 1; $i < 11; ++$i) {
         <tr>
             <td>
                 <p>
-                    Figure 3 displays the top 10 users who have used this software the most based on the total number of songs they have listened to. The top user 'dak180' first listened to a song back in 2005 - meaning 
-                    his account was created during 2005 and has been using the software since until at least 2018. 
+                    Figure 3 displays the top 10 users who have used this software the most based on the total number of songs they have listened to. The top user 'dak180' first
+                    listened to a song back in 2005 - meaning their account was created during 2005 and has been using the software since until at least 2018 and on average, listened
+                    to 92,676.5 songs per year from 2005 - 2018. User 'CatCat' comes in second place with 1,248,897 songs listened, only 48,574 songs less and averaging just under 90,000
+                    songs per year from 2005-2018.
                 </p>
             </td>
             <td>
                 <p class="small">Table 3</p>
                 <img src="https://storage.cloud.google.com/a2-s3721471-bucket/table_3.jpg" alt="table_3">
-                <!-- Div that holds the bar chart -->
+                <!-- Div that holds the column chart -->
                 <p class="small">Figure 3</p>
                 <div id="columnchart_div"></div>
             </td>
